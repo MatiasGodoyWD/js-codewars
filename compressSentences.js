@@ -17,7 +17,10 @@
 // "01231203"
 
 const compress = (s) => {
-  let arr = s.toLowerCase().split(" ");
+  let arr = s
+    .toLowerCase()
+    .split(" ")
+    .filter((s) => isNaN(Number(s)));
   return arr.reduce((a, b) => a + arr.indexOf(b), "");
 };
 

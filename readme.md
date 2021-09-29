@@ -8,6 +8,6 @@
 
 ## Ranking de Codewars
 
-    Completed Katas: 104
+    Completed Katas: 116
     Rank: 5Kyu
     Profile: https://www.codewars.com/users/MatiasGodoyWD
